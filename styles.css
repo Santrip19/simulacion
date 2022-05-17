@@ -9,3 +9,9 @@
     height: 500px !important;
     width: 100% !important;
 }
+
+.parrafo{
+    width: 45%; 
+    padding: 20px; 
+    text-align: justify;
+}
