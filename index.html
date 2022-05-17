@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+    <html>  
+    <head>  
+    <meta charset="utf-8">  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    </head> 
+    
+    <body>  
+    <h2>Lanzamiento de dado <img class="icon"
+        src="./assents/img/dado.png"
+        alt=""> </h2>  
+        <form name="datos">
+            <h4>
+               Número de lanzamientos: 
+            </h4> 
+            <input type="number" name="n" style="width: 190px;">
+            <input type="button" value="Calcular" OnClick="calcular()">
+            <br>
+            <br>
+            <table style="background-color:beige;">
+			  <tr>
+			    <td>NUMERO</td>
+				<td>FRECUENCIA</td>
+				<td>FRECUENCIA RELATIVA</td>
+			  </tr>
+			  <tr>
+			   <td>UNO</td>
+				<td><input disabled type="text" id="uno"></td>
+				<td><input disabled type="text" ></td>
+				<td class="inputhide"><input disabled type="text" ></td>
+			  </tr>
+			  <tr>
+			    <td>DOS</td>
+				<td><input disabled type="text" id="dos" ></td>
+				<td><input disabled type="text" ></td>
+				<td class="inputhide"><input disabled type="text" ></td>
+			  </tr>
+			  <tr>
+			    <td>TRES</td>
+				<td><input disabled type="text" id="tres"></td>
+				<td><input disabled type="text"></td>
+				<td class="inputhide"><input disabled type="text" ></td>
+			  </tr>
+			  <tr>
+			    <td>CUATRO</td>
+				<td><input disabled type="text" id="cuatro"></td>
+				<td><input disabled type="text"></td>
+				<td class="inputhide"><input disabled type="text" ></td>
+			  </tr>
+			  <tr>
+			    <td>CINCO</td>
+				<td><input disabled type="text" id="cinco"></td>
+				<td><input disabled type="text"></td>
+				<td class="inputhide"><input disabled type="text" ></td>
+			  </tr>
+			  <tr>
+			    <td>SEIS</td>
+				<td><input disabled type="text" id="seis"></td>
+				<td><input disabled type="text"></td>
+				<td class="inputhide"><input disabled type="text" ></td>
+			  </tr>
+			<table/>
+     </form>
+   <div>
+         <canvas id="grafica" class="grafica">
+
+     </canvas> 
+   </div>
+    <script src="main.js"></script>  
+</body>  
+</html>

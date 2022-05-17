@@ -1,0 +1,11 @@
+.inputhide{
+    display: none;
+}
+.icon{
+    height: 40px;
+}
+
+.grafica{
+    height: 500px !important;
+    width: 100% !important;
+}
